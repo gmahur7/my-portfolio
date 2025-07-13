@@ -1,36 +1,98 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Personal Portfolio – Next.js + TypeScript + Tailwind CSS
 
-## Getting Started
+This is my personal developer portfolio built with **Next.js App Router**, **TypeScript**, and **Tailwind CSS**. It uses modern UI libraries and animation frameworks to deliver a clean, responsive, and performant user experience.
 
-First, run the development server:
+## 🛠 Tech Stack
+
+- **Framework**: [Next.js](https://nextjs.org/) (App Router)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **UI Components**: [shadcn/ui](https://ui.shadcn.com/)
+- **Theming**: [next-themes](https://github.com/pacocoursey/next-themes) – Light/Dark mode support
+- **Animations**: [Framer Motion](https://www.framer.com/motion/)
+
+## ✨ Features
+
+- 🌐 Fully responsive layout
+- 🌙 Light/Dark theme toggle
+- ⚡ Micro animations using Framer Motion
+- 🎨 Prebuilt UI components with shadcn
+- 🚀 Optimized for performance and accessibility
+- 🔧 Easy to customize and extend
+
+## 📁 Project Structure
+
+```
+/portfolio            → Portfolio Frontend
+    /app              → Next.js App Router pages
+    /components       → Reusable React components
+    /lib              → Utility functions and helpers
+    /public           → Static assets
+    /styles           → Global and Tailwind styles
+    /types            → TypeScript type definitions
+
+````
+
+## 📦 Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/gmahur7/my-portfolio.git
+cd /my-portfolio/portfolio
+````
+
+### 2. Install Dependencies
+
+```bash
+npm install
+# or
+yarn install
+```
+
+### 3. Run the Dev Server
 
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit `http://localhost:3000` to view the site locally.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📸 Preview
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+![Portfolio Preview](public/assets/images/preview.png)
 
-## Learn More
+> Make sure to place a screenshot as `public/assets/images/preview.png` for visual preview in GitHub.
 
-To learn more about Next.js, take a look at the following resources:
+## 🧪 Scripts
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+| Command          | Description                |
+| ---------------- | -------------------------- |
+| `npm run dev`    | Start local dev server     |
+| `npm run build`  | Build for production       |
+| `npm run start`  | Start production server    |
+| `npm run lint`   | Run linter                 |
+| `npm run format` | Format code using Prettier |
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🌍 Live Site
 
-## Deploy on Vercel
+[🔗 https://your-portfolio-url.vercel.app](https://your-portfolio-url.vercel.app)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🧑‍💻 Author
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**GAURAV SINGH**
+
+* 🌐 [Portfolio](https://your-portfolio-url.vercel.app)
+* 📧 [your-email@example.com](mailto:gm7017308@gmail.com)
+* 💼 [LinkedIn](https://www.linkedin.com/in/gaurav-mahur-sept18)
+* 🐙 [GitHub](https://github.com/gmahur7)
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+> Designed and developed with ❤️ using modern technologies.
